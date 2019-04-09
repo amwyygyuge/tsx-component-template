@@ -2,13 +2,14 @@
 	"name": "component-name",
 	"version": "1.0,0",
 	"description": "component for react",
-	"dependencies": {
-		"react": "^16.8.6"
-	},
+	"dependencies": {},
 	"typings": "./dist/index.d.ts",
 	"main": "dist/index.js",
 	"license": "MIT",
-	"files": [ "assets/*.css", "dist" ],
+	"files": [
+		"assets/*.css",
+		"dist"
+	],
 	"scripts": {
 		"dev": "webpack-dev-server --config build/webpack.dev.config.js",
 		"build": "webpack --config build/webpack.prod.config.js",
@@ -21,6 +22,7 @@
 		"@types/antd": "^1.0.0",
 		"@types/react": "^16.8.8",
 		"@types/react-dom": "^16.8.3",
+		"antd": "^3.16.2",
 		"awesome-typescript-loader": "^5.2.1",
 		"css-loader": "^2.1.1",
 		"csstype": "^2.6.3",
@@ -29,6 +31,7 @@
 		"html-webpack-plugin": "^3.2.0",
 		"less": "^3.9.0",
 		"less-loader": "^4.1.0",
+		"react": "^16.8.6",
 		"react-dom": "^16.8.5",
 		"source-map-loader": "^0.2.4",
 		"style-loader": "^0.23.1",
